@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Arrays Function </title>
+        <script>
+                function remove()
+                {
+                    var a=["Sonam","Ram","Mango","Orange"];
+                    document.write(a + "<br>");
+                    a.pop();
+                    document.write(a+ "<br>").focus();
+                }
+                function sort()
+                {
+                    var a=["Sonam","Ram","Mango","Orange"];
+                    document.write(a + "<br>");
+                    a.sort();
+                    document.write(a + "<br>");
+            }
+            function reverse()
+            {
+                var a=["Sonam","Ram","Mango","Orange"];
+                document.write(a + "<br>");
+                a.sort();
+                document.write(a + "<br>");
+                a.reverse();
+                document.write(a + "<br>");
+            }
+        </script>
+        
+        </head>
+        
+        <body>
+            <h1 align="center">Javascript Arrays Demo</h1>
+            <table width="300" border="1" align="center">
+  
+                <tr>
+                  <td align="center" colspan="3">
+                  <input type="button" value="Remove" onClick="remove()">
+                  <input type="button" value="Sort" onClick="sort()">
+                  <input type="button" value="Reverse" onClick="reverse()">
+              
+                </tr>
+              </table>
+        </body>
+</html>
